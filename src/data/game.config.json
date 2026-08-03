@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "greystone-r1-technical-complete",
+  "projectCode": "GRAY STONE",
+  "title": "Десять дней в доме Грейстоуна",
+  "logline": "За десять дней до приезда невесты Леонард Грейстоун должен вернуть контроль над имением и раскрыть одну из шести переменных преступных версий.",
+  "locale": "ru-RU",
+  "startLocationId": "main_hall",
+  "rules": {
+    "days": 10,
+    "actionPointsPerDay": 5,
+    "movementCostsActionPoints": false,
+    "culpritSelection": "random-on-new-game",
+    "finalStrategies": ["official", "ambush", "lockdown"]
+  },
+  "dataSources": {
+    "canon": "Google Sheets: _редакция_1",
+    "characters": "./characters.json",
+    "locations": "./locations.json",
+    "events": "./events.json",
+    "dialogues": "./dialogues.json",
+    "assets": "./assets.manifest.json"
+  }
+}
